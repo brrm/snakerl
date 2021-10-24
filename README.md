@@ -19,8 +19,8 @@ The same neural network is evaluated 3 times for each possible direction (left, 
 3. **Single output neuron representing confidence for this direction**
 
 ### Fitness evaluation
-Fitness is given by: $fitness=lifetime * (score+1)^2$
-Where $lifetime$ is the number of moves (including moving straight ahead) the snake has made in total (note that snakes are limited to 150 moves between food acquisitions to prevent the strategy of indefinitely moving in a circle).
+Fitness is given by: *fitness=lifetime * (score+1)^2*
+Where *lifetime* is the number of moves (including moving straight ahead) the snake has made in total (note that snakes are limited to 150 moves between food acquisitions to prevent the strategy of indefinitely moving in a circle).
 
 ### Genetic Algorithm
 After every snake in a generation has died (the number of neural networks in a generation can be changed with the `population_size` parameter in `snakerl.py`) the next generation is generated.
