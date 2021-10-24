@@ -20,6 +20,7 @@ The same neural network is evaluated 3 times for each possible direction (left, 
 
 ### Fitness evaluation
 Fitness is given by: *fitness=lifetime * (score+1)^2*
+
 Where *lifetime* is the number of moves (including moving straight ahead) the snake has made in total (note that snakes are limited to 150 moves between food acquisitions to prevent the strategy of indefinitely moving in a circle).
 
 ### Genetic Algorithm
